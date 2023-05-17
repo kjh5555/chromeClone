@@ -5,3 +5,101 @@ body{
 .hidden{
     display: none;
 }
+img {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../img/0.jpg),url(../img/1.jpg),url(../img/2.jpg);
+    background-size: cover;
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7))
+    z-index:1;
+  }
+
+  h2{
+    position: absolute;
+    top: 40%;
+    left:50%;
+    transform: translate(-50%, -50%);                                                                   
+    font-size:5rem;
+    color: white;
+    z-index: 2;
+    text-align: center;
+  }
+  h1{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);                                                                   
+    font-size:3rem;
+    color: white;
+    z-index: 2;
+    text-align: center;
+  }
+  div#quotes span:first-child {
+    position: absolute;
+    top:70%;
+    left:50%;
+    transform: translate(-50%, -50%);                                                                   
+    font-size:3rem;
+    color: white;
+    z-index: 2;
+    text-align: center;
+    white-space : nowrap;
+  }
+  div#quotes span:last-child {
+    position: absolute;
+    top:80%;
+    left:50%;
+    transform: translate(-50%, -50%);                                                                   
+    font-size:3rem;
+    color: white;
+    z-index: 2;
+    text-align: center;
+    white-space : nowrap;
+  }
+  form{
+    position: absolute;
+    top:10%;
+    left:80%;
+    transform: translate(-50%, -50%);                                                                   
+    font-size:2rem;
+    color: white;
+    z-index: 2;
+    text-align: center;
+    white-space : nowrap;
+  }
+
+  div#weather span:first-child {
+    position: absolute;
+    top:90%;
+    left:50%;
+    transform: translate(-50%, -50%);                                                                   
+    font-size:2rem;
+    color: white;
+    z-index: 2;
+    text-align: center;
+    white-space : nowrap;
+  }
+  div#weather span:last-child {
+    position: absolute;
+    top:100%;
+    left:50%;
+    transform: translate(-50%, -50%);                                                                   
+    font-size:2rem;
+    color: white;
+    z-index: 2;
+    text-align: center;
+    white-space : nowrap;
+  }
+  #todo-list li{
+    position: absolute;
+    top:20%;
+    left:80%;
+    transform: translate(-50%, -50%);                                                                   
+    font-size:2rem;
+    color: white;
+    z-index: 2;
+    white-space : nowrap;
+    display: list-item;
+     text-align: -webkit-match-parent;
+    
+  }
